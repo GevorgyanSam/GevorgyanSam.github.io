@@ -1,0 +1,468 @@
+                        
+
+
+
+
+                        /* FIXED ANIMATION BUGS ON RESIZE */
+
+
+
+
+                        
+@media only screen and (max-width: 1600px) {
+
+    .hurryUpContent {
+        display: block !important;
+    }
+
+    .productParentChild {
+        display: block !important;
+    }
+
+    .paralaxParentChild {
+        display: block !important;
+    }
+
+    .productParentChild2 {
+        display: block !important;
+    }
+
+    .teamParentChild {
+        display: block !important;
+    }
+
+    .latestParentChild {
+        display: block !important;
+    }
+
+    .footerParentChild {
+        display: flex !important;
+    }
+
+    .footerBottom div {
+        display: block !important;
+    }
+}
+
+
+
+
+
+                        /* NAV */
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+
+    .brand {
+        width: 280px;
+        margin-top: 15px;
+        margin-left: 90px !important;
+    }
+    
+    .links {
+        margin-right: 120px !important;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+
+    .brand {
+        width: 280px;
+        margin-top: 15px;
+        margin-left: 50px !important;
+    }
+    
+    .links {
+        margin-right: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+
+    .brand {
+        width: 280px;
+        margin-top: 15px;
+        margin-left: 0px !important;
+    }
+    
+    .links {
+        margin-right: 0px !important;
+    }
+
+    .navTop {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navIcons {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    nav {
+        max-height: 500px !important;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    .brand {
+        width: 220px !important;
+        margin-left: -15px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .brand {
+        width: 180px !important;
+        margin-left: -25px !important;
+    }
+}
+
+
+
+
+
+                        /* SLIDER */
+
+
+
+
+
+@media only screen and (max-width: 1320px) {
+
+    .firstSliderBox {
+        width: 600px !important;
+    }
+
+    .firstSliderBox > h5 {
+        font-size: 25px !important;
+    }
+
+    .firstSliderBox > h5 + p {
+        font-size: 16px !important;
+    }
+
+    .firstSliderBox > h5 + p + button {
+        height: 30px !important;
+        width: 100px !important;
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .slideParent {
+        padding-top: 110px !important;
+    }
+
+    .backIcon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    .slideParent {
+        padding-top: 80px !important;
+    }
+}
+
+
+
+
+
+                        /* HURRY UP */
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .hurryUpContent {
+        text-align: center !important;
+    }
+
+    .hurryUpContent > h1, h2 {
+        margin: 20px !important;
+    }
+
+    .hurryUpContent > h2 {
+        margin-bottom: 30px !important;
+    }
+
+    .hurryUpContent > p {
+        margin: 20px !important;
+        font-weight: 600;
+        color: var(--contentColor);
+        letter-spacing: 1px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .hurryUpParent {
+        padding: 10px 0 !important;
+    }
+
+    .media_3 {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .media_2 {
+        display: none !important;
+    }
+}
+
+
+
+
+
+                        /* OUR PRODUCTS */
+
+
+
+
+
+@media only screen and (max-width: 1320px) {
+
+    .paralaxMedia2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1212px) {
+
+    .product-item img {
+        max-width: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 1122px) {
+
+    .product-item img {
+        max-width: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .product-item img {
+        max-width: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .paralaxParentChild {
+        padding: 0 30px !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .paralaxParentChild {
+        padding: 0 !important;
+    }
+}
+
+
+
+
+
+                        /* TEAM */
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    .teamContent .teamItem {
+        margin-top: 50px !important;
+        padding: 30px;
+        margin: 0 20px !important;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .teamContent .teamItem {
+        margin-top: 50px !important;
+        padding: 30px;
+        margin: 0 10px !important;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+
+    .teamContent .teamItem p span {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .teamContent .teamItem p span {
+        display: inline-block;
+    }
+}
+
+
+
+
+
+                        /* LATEST FASHION */
+
+
+
+
+
+@media only screen and (max-width: 1530px) {
+
+    .latestParent {
+        min-height: 700px !important;
+    }
+
+    .latestContent {
+        align-items: center !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    .latestItem div > span {
+        margin: 0 !important;
+        font-size: 15px !important;
+    }
+
+    .latestItem div > span:nth-child(1) {
+        margin-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1217px) {
+
+    .latestContent .latestItem {
+        margin: 0 !important;
+    }
+
+    .latestItem img {
+        max-width: 600px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .latestItem div > span {
+        font-size: 20px !important;
+        margin: 0 20px !important;
+    }
+    
+    .latestItem div > span i {
+        font-size: 22px !important;
+        margin-right: 15px !important;
+    }
+
+    .latestItem div > h4 {
+        font-size: 25px !important;
+        margin: 15px 0 !important;
+    }
+
+    .latestItem div > p {
+        font-size: 20px !important;
+        margin: 15px 0 !important;
+    }
+
+    .latestItem div > button {
+        height: 45px !important;
+        width: 150px !important;
+        margin: 15px 0 !important;
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .latestItem img {
+        max-width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .latestItem div > span {
+        font-size: 16px !important;
+        margin: 0 5px !important;
+    }
+    
+    .latestItem div > span i {
+        font-size: 18px !important;
+        margin-right: 5px !important;
+    }
+
+    .latestItem div > h4 {
+        font-size: 20px !important;
+        margin: 10px 0 !important;
+    }
+
+    .latestItem div > p {
+        font-size: 18px !important;
+        margin: 10px 0 !important;
+    }
+
+    .latestItem div > button {
+        height: 35px !important;
+        width: 120px !important;
+        margin: 10px 0 !important;
+        font-size: 16px !important;
+    }
+}
+
+
+
+
+
+                        /* FOOTER */
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .footerParentChild {
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .footerItem:nth-child(2), .footerItem:nth-child(3) {
+        display: none;
+    }
+
+    .footerLinks {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .footerParent {
+        padding: 50px 0 !important;
+    }
+}

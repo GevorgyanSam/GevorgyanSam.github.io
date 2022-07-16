@@ -1,0 +1,290 @@
+                        
+
+
+
+
+                        /* FIXED ANIMATION BUGS ON RESIZE */
+
+
+
+
+                        
+@media only screen and (max-width: 1600px) {
+
+    .paralaxParentChild {
+        display: block !important;
+    }
+    
+    .teamParentChild {
+        display: block !important;
+    }
+
+    .footerParentChild {
+        display: flex !important;
+    }
+
+    .footerBottom div {
+        display: block !important;
+    }
+}
+
+
+
+
+                        /* NAV */
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+
+    .brand {
+        width: 280px;
+        margin-top: 15px;
+        margin-left: 90px !important;
+    }
+    
+    .links {
+        margin-right: 120px !important;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+
+    .brand {
+        width: 280px;
+        margin-top: 15px;
+        margin-left: 50px !important;
+    }
+    
+    .links {
+        margin-right: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+
+    .brand {
+        width: 280px;
+        margin-top: 15px;
+        margin-left: 0px !important;
+    }
+    
+    .links {
+        margin-right: 0px !important;
+    }
+
+    .navTop {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navIcons {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    nav {
+        max-height: 500px !important;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    .brand {
+        width: 220px !important;
+        margin-left: -15px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .brand {
+        width: 180px !important;
+        margin-left: -25px !important;
+    }
+}
+
+
+
+
+
+                        /* ABOUT US */
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .aboutHeaderLinks {
+        margin-left: 0 !important;
+        justify-content: center !important;
+    }
+
+    .headerParent h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1415px) {
+
+    .welcomeP {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1241px) {
+
+    [src = "img/about_img-1.jpg"] {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .welcomeParentRow > div {
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    [src = "img/about_img-1.jpg"] {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .aboutWelcome {
+        padding: 60px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+
+    .welcomeParentRow h2 {
+        font-size: 30px !important;
+    }
+
+    .welcomeP2 {
+        display: none !important;
+    }
+}
+
+
+
+
+
+                        /* PARALAX */
+
+
+
+
+
+@media only screen and (max-width: 1320px) {
+
+    .paralaxMedia2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .paralaxParentChild {
+        padding: 0 30px !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .paralaxParentChild {
+        padding: 0 !important;
+    }
+}
+
+
+
+
+
+                        /* TEAM */
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    .teamContent .teamItem {
+        margin-top: 50px !important;
+        padding: 30px;
+        margin: 0 20px !important;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .teamContent .teamItem {
+        margin-top: 50px !important;
+        padding: 30px;
+        margin: 0 10px !important;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+
+    .teamContent .teamItem p span {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .teamContent .teamItem p span {
+        display: inline-block;
+    }
+}
+
+
+
+
+
+                        /* FOOTER */
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .footerParentChild {
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .footerItem:nth-child(2), .footerItem:nth-child(3) {
+        display: none;
+    }
+
+    .footerLinks {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .footerParent {
+        padding: 50px 0 !important;
+    }
+}
